@@ -2,7 +2,7 @@
 @import 'tw-animate-css';
 @import 'shadcn/tailwind.css';
 
-:root { --background: #06132f; --foreground: #f4f7ff; --card: #0b1d43; --card-foreground: #f4f7ff; --primary: #274c77; --primary-foreground: #f4f7ff; --muted: #102653; --muted-foreground: #a8b8de; --border: rgba(173,195,255,.17); --input: rgba(173,195,255,.22); --ring: #8ca9ff; --accent: #65e6d4; --accent-soft: rgba(101,230,212,.12); --radius: .75rem; color-scheme: dark; }
+:root { --background: #08111f; --foreground: #f5f8ff; --card: #0f1b2e; --card-foreground: #f5f8ff; --primary: #274c77; --primary-foreground: #f5f8ff; --muted: #142844; --muted-foreground: #aebed8; --border: rgba(173,195,255,.16); --input: rgba(173,195,255,.22); --ring: #8ca9ff; --accent: #65e6d4; --accent-soft: rgba(101,230,212,.12); --radius: .75rem; color-scheme: dark; }
 .light { --background: #ffffff; --foreground: #0d1b3d; --card: #ffffff; --card-foreground: #0d1b3d; --muted: #e9effd; --muted-foreground: #526487; --border: rgba(31,60,126,.15); --input: rgba(31,60,126,.2); --primary: #274c77; --primary-foreground: #ffffff; --ring: #274c77; --accent: #087f91; --accent-soft: rgba(8,127,145,.1); color-scheme: light; }
 @theme inline { --color-background: var(--background); --color-foreground: var(--foreground); --color-card: var(--card); --color-card-foreground: var(--card-foreground); --color-primary: var(--primary); --color-primary-foreground: var(--primary-foreground); --color-muted: var(--muted); --color-muted-foreground: var(--muted-foreground); --color-border: var(--border); --color-input: var(--input); --color-ring: var(--ring); --font-sans: 'Inter', 'Arial', sans-serif; --font-mono: 'Geist Mono', 'SFMono-Regular', monospace; }
 * { box-sizing: border-box; border-color: var(--border); }

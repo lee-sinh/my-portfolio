@@ -4,7 +4,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Oeurn Lee Sinh — Full-Stack Developer',
-  description: 'Portfolio of Oeurn Lee Sinh, a full-stack developer and AI enthusiast building thoughtful software with Next.js, FastAPI, and modern systems.',
+  description: 'Portfolio of Oeurn Lee Sinh, a full-stack developer building practical web products with React, Next.js, FastAPI, Laravel, and cloud technologies.',
   generator: 'v0.app',
 }
 

@@ -1,11 +1,15 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
+import './liquid-glass.css'
 
 export const metadata: Metadata = {
   title: 'Oeurn Lee Sinh — Full-Stack Developer',
   description: 'Portfolio of Oeurn Lee Sinh, a full-stack developer building practical web products with React, Next.js, FastAPI, Laravel, and cloud technologies.',
   generator: 'v0.app',
+  icons: {
+    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
+  },
 }
 
 export const viewport: Viewport = {
